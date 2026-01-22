@@ -1,0 +1,31 @@
+.card {
+  border-bottom: var(--text-color-light) 1px solid;
+  padding-bottom: 12px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.right-column {
+  display: inline-block;
+
+  margin-left: 16px;
+}
+
+.date {
+  color: var(--text-color-light);
+  margin-bottom: 16px;
+}
+
+.content {
+  text-indent: 48px;
+}

@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  gap: 24px;
+  height: 500px;
+}
+
+.poster-wrapper {
+  height: 100%;
+  min-width: 420px;
+  width: 420px;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.details {
+  display: inline-block;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.more-info-menu {
+  margin: 32px 0;
+}
+
+.navigation-item {
+  display: inline-block;
+}
+
+.navigation-item:not(:first-child) {
+  margin-left: 32px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link.active {
+  border-bottom: solid var(--active-color) 2px;
+}
